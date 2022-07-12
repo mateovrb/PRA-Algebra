@@ -89,6 +89,8 @@ button:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 40px 0;
+
 }
 
 .search-headline {
@@ -390,3 +392,5 @@ button.newsletter-btn {
 .results__box-info p {
   color: var(--main-black);
 }
+
+/* AUTHOR PAGE */
