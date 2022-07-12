@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,34 +12,136 @@
     <link rel="stylesheet" href="./assets/css/utilities.css" />
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>PRA22</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <a class="logo" href="#">Logo</a>
-            <nav>
-                <ul class="nav__links">
-                    <li>
-                        <a href="#">Kategorija <i class="fa-solid fa-angle-down"></i></a>
-                    </li>
-                    <li><a href="#">Autor</a></li>
-                    <li><a href="#">O nama</a></li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-globe"></i>
-                            <i class="fa-solid fa-angle-down"></i></a>
-                    </li>
-                    <button class="btn cta" id="login-btn">Prijava</button>
-                    <button class="btn cta" id="register-btn">Registracija</button>
-                </ul>
-            </nav>
-        </header>
+      <header>
+        <a class="logo" href="index.html">Logo</a>
+        <nav>
+          <ul class="nav__links">
+            <li>
+              <a href="#">Kategorija <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li><a href="author.html">Autor</a></li>
+            <li><a href="about.html">O nama</a></li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <button class="btn cta" id="login-btn">Prijava</button>
+            <button class="btn cta" id="register-btn">Registracija</button>
+          </ul>
+        </nav>
+      </header>
 
+      <div class="page-nav">
+        <a href="#">Izbornik</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">Autor</a>
+      </div>
 
+      <div class="results-nav">
+        <div class="total-results">
+          <h3>Ukupno - <span id="autor-results">73 Autora</span></h3>
+        </div>
+        <div class="sort-list">
+          <span>Sort By</span>
+          <div class="sort-list-border">
+            <a href="#" id="sort-by">Popularnosti </a>
+            <i class="fa-solid fa-sort-down"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="purple-divider"></div>
 
+    <!-- AUTHORS SECTION -->
+    <section class="authors">
+      <div class="authors-container">
+        <div class="authors-box">
+          <img src="./assets/img/Ellipse 126.png" alt="" />
+          <div class="authors-desc">
+            <h3>Ime Autora</h3>
+            <p class="about-author">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur illum totam iure eum. Quibusdam sunt tempora excepturi
+              ad, maxime quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aspernatur illum totam iure eum. Quibusdam sunt
+              tempora excepturi ad, maxime quis.
+            </p>
+            <hr />
+            <p class="total-books">
+              Ukupno knjiga na ovoj stranici: <span id="book-count">17</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="authors-box">
+          <img src="./assets/img/Ellipse 126.png" alt="" />
+          <div class="authors-desc">
+            <h3>Ime Autora</h3>
+            <p class="about-author">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur illum totam iure eum. Quibusdam sunt tempora excepturi
+              ad, maxime quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aspernatur illum totam iure eum. Quibusdam sunt
+              tempora excepturi ad, maxime quis.
+            </p>
+            <hr />
+            <p class="total-books">
+              Ukupno knjiga na ovoj stranici: <span id="book-count">17</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="authors-box">
+          <img src="./assets/img/Ellipse 126.png" alt="" />
+          <div class="authors-desc">
+            <h3>Ime Autora</h3>
+            <p class="about-author">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur illum totam iure eum. Quibusdam sunt tempora excepturi
+              ad, maxime quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aspernatur illum totam iure eum. Quibusdam sunt
+              tempora excepturi ad, maxime quis.
+            </p>
+            <hr />
+            <p class="total-books">
+              Ukupno knjiga na ovoj stranici: <span id="book-count">17</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="authors-box">
+          <img src="./assets/img/Ellipse 126.png" alt="" />
+          <div class="authors-desc">
+            <h3>Ime Autora</h3>
+            <p class="about-author">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur illum totam iure eum. Quibusdam sunt tempora excepturi
+              ad, maxime quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aspernatur illum totam iure eum. Quibusdam sunt
+              tempora excepturi ad, maxime quis.
+            </p>
+            <hr />
+            <p class="total-books">
+              Ukupno knjiga na ovoj stranici: <span id="book-count">17</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

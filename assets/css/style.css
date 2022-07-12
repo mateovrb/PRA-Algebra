@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* CSS VARIABLES */
 :root {
   --main-black: #3a3a3a;
@@ -15,7 +14,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Popins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 li,
@@ -24,6 +23,11 @@ button {
   color: var(--main-black);
   text-decoration: none;
   list-style-type: none;
+}
+
+h3,
+p {
+  color: var(--main-black);
 }
 
 header {
@@ -90,7 +94,6 @@ button:hover {
   align-items: center;
   flex-direction: column;
   margin: 40px 0;
-
 }
 
 .search-headline {
@@ -394,3 +397,104 @@ button.newsletter-btn {
 }
 
 /* AUTHOR PAGE */
+.page-nav {
+  margin: 30px 0 20px 20px;
+}
+
+.page-nav a {
+  padding-right: 15px;
+}
+
+.page-nav i {
+  font-size: 12px;
+  padding-right: 15px;
+}
+
+.results-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px 20px;
+}
+
+.total-results h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.sort-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort-list-border {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--light-gray);
+  padding: 8px 14px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.sort-list-border a {
+  font-size: 14px;
+}
+
+.sort-list i {
+  margin-left: 20px;
+}
+
+.purple-divider {
+  margin-bottom: 30px;
+}
+
+/* AUTHORS SECTION */
+.authors-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authors-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.authors-box {
+  display: flex;
+  max-width: 50%;
+  border: 1px solid var(--light-gray);
+  padding: 20px 30px;
+  margin-bottom: 20px;
+}
+
+.authors-box img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.authors-desc h3 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.about-author {
+  font-size: 14px;
+  color: var(--main-black);
+}
+
+.authors-desc hr {
+  margin: 20px 0;
+  border: 1px solid var(--light-gray);
+}
+
+.total-books {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ABOUT PAGE */

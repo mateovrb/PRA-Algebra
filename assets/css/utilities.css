@@ -24,3 +24,9 @@
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+
+.purple-divider {
+  width: 100%;
+  height: 20px;
+  background-color: var(--light-purple);
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="about.css" />
+
+    <!-- UTILITIES CSS -->
+    <link rel="stylesheet" href="./assets/css/utilities.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>PRA22</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a class="logo" href="index.html">Logo</a>
+        <nav>
+          <ul class="nav__links">
+            <li>
+              <a href="#">Kategorija <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li><a href="author.html">Autor</a></li>
+            <li><a href="about.html">O nama</a></li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <button class="btn cta" id="login-btn">Prijava</button>
+            <button class="btn cta" id="register-btn">Registracija</button>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page-nav">
+        <a href="#">Izbornik</a>
+        <i class="fa-solid fa-chevron-right"></i>
+        <a href="#">Autor</a>
+      </div>
+    </div>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter">
+      <div class="newsletter-text">
+        <h3>Prijava na naš newsletter</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br />Voluptatum repellendus quae quia nostrum pariatur nam quisquam
+          cumque ea labore corrupti?
+        </p>
+      </div>
+      <div class="newslettter-input">
+        <input type="email" placeholder="Email" />
+        <div>
+          <input type="checkbox" id="agree" />
+          <label for="agree">Slažete se s našim uvjetima privatnosti</label>
+        </div>
+      </div>
+      <button class="newsletter-btn">Pretplata</button>
+    </section>
+  </body>
+
+  <!-- Footer -->
+  <footer class="footer py-1 about-footer">
+    <div>
+      <h1>Logo</h1>
+      <p>Copyright &copy; 2022</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Pravila privatnosti</a></li>
+        <li><a href="#">Uvjeti korištenja</a></li>
+      </ul>
+    </nav>
+    <div class="social">
+      <a href="#"><i class="fab fa-github fa-2x"></i></a>
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
+  </footer>
+</html>
