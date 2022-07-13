@@ -30,3 +30,8 @@
   height: 20px;
   background-color: var(--light-purple);
 }
+
+.purple-bacc {
+  background-color: var(--light-purple);
+  width: 100%;
+}
