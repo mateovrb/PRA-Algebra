@@ -476,7 +476,7 @@ button.newsletter-btn {
 
 .authors-box {
   display: flex;
-  max-width: 50%;
+  max-width: 1000px;
   border: 1px solid var(--light-gray);
   padding: 20px 30px;
   margin-bottom: 20px;
@@ -835,6 +835,7 @@ li {
 .book-about h3 {
   padding: 20px 0;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .book-about i {
