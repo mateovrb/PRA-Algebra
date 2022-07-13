@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- UTILITIES CSS -->
+    <link rel="stylesheet" href="./assets/css/utilities.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>PRA22</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a class="logo" href="#">Logo</a>
+        <nav>
+          <ul class="nav__links">
+            <li>
+              <a href="#">Kategorija <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li><a href="author.html">Autor</a></li>
+            <li><a href="about.html">O nama</a></li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <a href="login.html">
+              <button class="btn cta login" id="login-btn">Prijava</button></a
+            >
+            <a href="registration.html">
+              <button class="btn cta" id="register-btn">Registracija</button></a
+            >
+          </ul>
+        </nav>
+      </header>
+
+      <section class="book-page">
+        <div class="book-container">
+          <img src="./assets/img/Rectangle 6601.png" alt="" />
+          <div class="book-desc">
+            <h3 class="book-title">Naslov Knjige</h3>
+            <p class="author-name">Ime Autora</p>
+            <p>
+              Datum Izdavanja:
+              <span class="book-release-date">18. Srp, 2019.</span>
+            </p>
+            <p>Stanje: Novo</p>
+            <p>Izdavač: Lorem</p>
+            <i class="fa-regular fa-bookmark"></i>
+
+            <div class="book-buy">
+              <div class="book-buy-box">
+                <label for="">
+                  <input type="radio" name="" id="" checked="checked" />
+                  |
+                </label>
+                <span class="buy-price">59.99 kn</span>
+                <p>Cijena za jednokratno plaćanje</p>
+              </div>
+              <div class="book-buy-box">
+                <label for="">
+                  <input type="radio" name="" id="" checked="checked" />
+                  |
+                </label>
+                <span class="buy-price">5.99 kn /tjedan</span>
+                <p>Posudba do 3 tjedna</p>
+              </div>
+
+              <div class="add-to-cart">
+                <div class="cart-number"></div>
+                <div class="buy-book">
+                  <a href="#"
+                    ><button class="buy-book-btn">Kupi knjigu</button></a
+                  >
+                </div>
+                <div class="book-to-cart">
+                  <a href="#"
+                    ><button class="add-to-cart-btn">
+                      Dodaj u košaricu
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

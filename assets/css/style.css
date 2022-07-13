@@ -96,7 +96,6 @@ button:hover {
 .profile-icon img {
   max-width: 30px;
   border-radius: 50%;
-
 }
 
 /* SEARCH SECTION */
@@ -750,4 +749,49 @@ li {
   transform: translate(-50%, -50%);
   font-size: 64px;
   color: #fff;
+}
+
+/* BOOK PAGE */
+.book-container {
+  display: flex;
+  margin: 10% 0 0px 20px;
+}
+
+.book-container img {
+  max-height: 400px;
+}
+
+.book-desc {
+  padding-left: 40px;
+  line-height: 2;
+}
+
+.book-desc i {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.book-title {
+  font-size: 24px;
+}
+
+.author-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.book-buy {
+  display: flex;
+}
+
+.book-buy-box {
+  margin-right: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 100px;
+  border: 1px solid var(--main-black);
+}
+
+.book-buy-box p {
+  font-size: 14px;
 }
