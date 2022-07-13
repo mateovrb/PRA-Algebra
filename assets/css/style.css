@@ -86,6 +86,12 @@ button:hover {
   transition: 0.7s ease;
 }
 
+.btn.cta.login {
+  background-color: #fff;
+  color: var(--main-black);
+  border: 1px solid var(--main-black);
+}
+
 /* SEARCH SECTION */
 .search {
   height: 30vh;
@@ -604,4 +610,119 @@ li {
 
 .about-footer a {
   color: #fff;
+}
+
+/* REGISTRATION PAGE */
+.registration-container {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.registration-left {
+  width: 50%;
+  padding: 30px;
+}
+
+.registration-right {
+  width: 50%;
+}
+
+.registration-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.registration-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registration-top h3 {
+  font-weight: 400;
+}
+
+.registration-top p a {
+  color: var(--dark-purple);
+  font-weight: 600;
+}
+
+.registration-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
+
+.registration-field h6 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.registration-field-text {
+  margin-bottom: 30px;
+}
+
+.registration-field p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-fields i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: var(--main-black);
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-fields input {
+  margin-bottom: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--light-gray);
+}
+
+.field-radio label:first-child {
+  margin-right: 20px;
+}
+
+.register-btn {
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.register-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.register-social span {
+  margin-right: 20px;
+}
+
+.register-social a {
+  padding-right: 20px;
 }
