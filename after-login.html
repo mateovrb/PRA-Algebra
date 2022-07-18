@@ -67,17 +67,26 @@
           <div class="category">
             <h3>Kategorija</h3>
             <div class="category-box">
-              <span>Horor</span>
-              <span><i class="fa-solid fa-angle-down"></i></span>
+              <select name="categories" id="catg">
+                <option value="horor">Horor</option>
+                <option value="comedy">Komedija</option>
+                <option value="drama">Drama</option>
+                <option value="crime">Kriminalistički</option>
+                <option value="publ">Publicistika</option>
+              </select>
             </div>
           </div>
+
           <div class="condition">
             <h3>Stanje</h3>
             <div class="condition-box">
-              <span>Novo</span>
-              <span><i class="fa-solid fa-angle-down"></i></span>
+              <select name="condition" id="condt">
+                <option value="horor">Novo</option>
+                <option value="horor">Rabljeno</option>
+              </select>
             </div>
           </div>
+
           <div class="search-input">
             <input type="text" placeholder="Tražite naslove, autore, ..." />
             <div class="search__input-icon">

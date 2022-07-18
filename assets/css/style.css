@@ -193,6 +193,14 @@ button:hover {
   cursor: pointer;
 }
 
+select#catg,
+select#condt {
+  border: none;
+  background-color: var(--light-gray);
+  outline: none;
+  cursor: pointer;
+}
+
 /* FEATURED SECTION */
 .featured {
   margin: auto;
@@ -461,15 +469,15 @@ button.newsletter-btn {
   margin-bottom: 30px;
 }
 
+.purple-divider.profile-divider {
+  margin-top: 70px;
+}
+
 /* AUTHORS SECTION */
 .authors-container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.authors-container {
-  display: flex;
   flex-direction: column;
   max-width: 100%;
 }
@@ -841,4 +849,29 @@ li {
 .book-about i {
   padding-left: 10px;
   color: var(--main-black);
+}
+
+/* PROFILE PAGE */
+.profile__books {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.profile__books-nav {
+  display: flex;
+}
+
+.profile__books-nav h3:first-child {
+  margin-right: 40px;
+}
+
+.profile__books-nav h3 {
+  font-weight: 400;
+  color: var(--main-black);
+}
+
+h3.nav-active {
+  color: var(--dark-purple);
+  padding-bottom: 3px;
+  border-bottom: 2px solid var(--dark-purple);
 }
