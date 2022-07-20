@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -31,12 +37,12 @@
           <ul class="nav__links">
             <li><a href="author.html">Autor</a></li>
             <li><a href="about.html">O nama</a></li>
-            <li>
+            <!-- <li>
               <a href="#"
                 ><i class="fa-solid fa-globe"></i>
                 <i class="fa-solid fa-angle-down"></i
               ></a>
-            </li>
+            </li> -->
             <li>
               <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
             </li>
@@ -50,44 +56,257 @@
       </header>
 
       <div class="page-nav">
-        <a href="#">Izbornik</a>
+        <a href="index.html">Izbornik</a>
         <i class="fa-solid fa-chevron-right"></i>
-        <a href="#">Košarica</a>
+        <a href="cart.html">Košarica</a>
       </div>
     </div>
     <div class="purple-divider profile-divider"></div>
 
-    <section class="cart container">
-      <div class="cart__container">
-        <div class="cart__container-left">
-          <div class="results__box">
-            <img src="./assets/img/Rectangle 6601.png" alt="" />
-            <div class="results__box-info">
-              <h3>Naslov Knjige</h3>
-              <h4>Ime autora</h4>
-              <div class="results__box-desc">
-                <p class="cart__item-price">
-                  <span id="cart__item-price"> 59.99</span> kn
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="results__box">
-            <img src="./assets/img/Rectangle 6601.png" alt="" />
-            <div class="results__box-info">
-              <h3>Naslov Knjige</h3>
-              <h4>Ime autora</h4>
-              <div class="results__box-desc">
-                <p class="cart__item-price">
-                  <span id="cart__item-price"> 59.99</span> kn
-                </p>
+    <section class="h-100 h-custom" style="background-color: #fff">
+      <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col">
+            <div class="card shopping-cart" style="border-radius: 15px">
+              <div class="card-body text-black">
+                <div class="row">
+                  <div class="col-lg-6 px-5 py-4">
+                    <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">
+                      Your products
+                    </h3>
+
+                    <div class="d-flex align-items-center mb-5">
+                      <div class="flex-shrink-0">
+                        <img
+                          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/13.webp"
+                          class="img-fluid"
+                          style="width: 150px"
+                          alt="Generic placeholder image"
+                        />
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <a href="#!" class="float-end text-black"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                        <h5 class="text-primary">Naslov Knjige</h5>
+                        <h6 style="color: #9e9e9e">Ime Autora</h6>
+                        <div class="d-flex align-items-center">
+                          <p class="fw-bold mb-0 me-5 pe-3">50 Kn</p>
+                          <div
+                            class="def-number-input number-input safari_only"
+                          >
+                            <button
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                              class="minus"
+                            ></button>
+                            <input
+                              class="quantity fw-bold text-black"
+                              min="0"
+                              name="quantity"
+                              value="1"
+                              type="number"
+                            />
+                            <button
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                              class="plus"
+                            ></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-5">
+                      <div class="flex-shrink-0">
+                        <img
+                          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/6.webp"
+                          class="img-fluid"
+                          style="width: 150px"
+                          alt="Generic placeholder image"
+                        />
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <a href="#!" class="float-end text-black"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                        <h5 class="text-primary">Naslov Knjige</h5>
+                        <h6 style="color: #9e9e9e">Ime Autora</h6>
+                        <div class="d-flex align-items-center">
+                          <p class="fw-bold mb-0 me-5 pe-3">50 Kn</p>
+                          <div
+                            class="def-number-input number-input safari_only"
+                          >
+                            <button
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                              class="minus"
+                            ></button>
+                            <input
+                              class="quantity fw-bold text-black"
+                              min="0"
+                              name="quantity"
+                              value="1"
+                              type="number"
+                            />
+                            <button
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                              class="plus"
+                            ></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-5">
+                      <div class="flex-shrink-0">
+                        <img
+                          src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/1.webp"
+                          class="img-fluid"
+                          style="width: 150px"
+                          alt="Generic placeholder image"
+                        />
+                      </div>
+                      <div class="flex-grow-1 ms-3">
+                        <a href="#!" class="float-end text-black"
+                          ><i class="fas fa-times"></i
+                        ></a>
+                        <h5 class="text-primary">Naslov Knjige</h5>
+                        <h6 style="color: #9e9e9e">Ime Autora</h6>
+                        <div class="d-flex align-items-center">
+                          <p class="fw-bold mb-0 me-5 pe-3">50 Kn</p>
+                          <div
+                            class="def-number-input number-input safari_only"
+                          >
+                            <button
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                              class="minus"
+                            ></button>
+                            <input
+                              class="quantity fw-bold text-black"
+                              min="0"
+                              name="quantity"
+                              value="2"
+                              type="number"
+                            />
+                            <button
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                              class="plus"
+                            ></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr
+                      class="mb-4"
+                      style="
+                        height: 2px;
+                        background-color: #b32e87;
+                        opacity: 0.2;
+                      "
+                    />
+
+                    <div class="d-flex justify-content-between px-x">
+                      <p class="fw-bold">Popust:</p>
+                      <p class="fw-bold">10 Kn</p>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between p-2 mb-2"
+                      style="background-color: #e1f5fe"
+                    >
+                      <h5 class="fw-bold mb-0">Ukupno:</h5>
+                      <h5 class="fw-bold mb-0">140 Kn</h5>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 px-5 py-4">
+                    <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">
+                      Plaćanje
+                    </h3>
+
+                    <form class="mb-5">
+                      <div class="form-outline mb-5">
+                        <input
+                          type="text"
+                          id="typeText"
+                          class="form-control form-control-lg"
+                          siez="17"
+                          value="1234 5678 9012 3457"
+                          minlength="19"
+                          maxlength="19"
+                        />
+                        <label class="form-label" for="typeText"
+                          >Broj kartice</label
+                        >
+                      </div>
+
+                      <div class="form-outline mb-5">
+                        <input
+                          type="text"
+                          id="typeName"
+                          class="form-control form-control-lg"
+                          siez="17"
+                          value="Pero Peric"
+                        />
+                        <label class="form-label" for="typeName"
+                          >Ime na kartici</label
+                        >
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6 mb-5">
+                          <div class="form-outline">
+                            <input
+                              type="text"
+                              id="typeExp"
+                              class="form-control form-control-lg"
+                              value="01/22"
+                              size="7"
+                              id="exp"
+                              minlength="7"
+                              maxlength="7"
+                            />
+                            <label class="form-label" for="typeExp"
+                              >Datum isteka</label
+                            >
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-5">
+                          <div class="form-outline">
+                            <input
+                              type="password"
+                              id="typeText"
+                              class="form-control form-control-lg"
+                              value="&#9679;&#9679;&#9679;"
+                              size="1"
+                              minlength="3"
+                              maxlength="3"
+                            />
+                            <label class="form-label" for="typeText">CVV</label>
+                          </div>
+                        </div>
+                      </div>
+
+                      <p class="mb-5">Ovo plaćanje je sigurno i zaštičeno.</p>
+
+                      <button type="button" class="buy-cta">Plati</button>
+
+                      <h5
+                        class="fw-bold mb-5"
+                        style="position: absolute; bottom: 0"
+                      >
+                        <a href="#!"
+                          ><i class="fas fa-angle-left me-2"></i>Nazad na
+                          kupnju</a
+                        >
+                      </h5>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="vertical-line"></div>
-        <div class="cart__container-right"></div>
       </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+      "></script>
   </body>
 </html>
